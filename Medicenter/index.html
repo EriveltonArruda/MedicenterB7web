@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/css/styles.css" rel="stylesheet" />
+    <script type="text/javascript">
+      window.onload = function () {
+        // selecionando o menuMobile e adicionando evento de clique
+        document
+          .querySelector(".menuMobile")
+          .addEventListener("click", function () {
+            // se o botão estiver aparecendo, faça desaparecer
+            if (
+              document.querySelector(".menu nav ul").style.display == "flex"
+            ) {
+              document.querySelector(".menu nav ul").style.display = "none";
+            }
+            // caso contrário, apareça
+            else {
+              document.querySelector(".menu nav ul").style.display = "flex";
+            }
+          });
+      };
+    </script>
+    <title>Medicenter</title>
+  </head>
+
+  <body>
+    <!-- cabeçalho -->
+    <header>
+      <div class="container">
+        <!-- logomarca -->
+        <div class="logo">
+          <a href="#"><img src="assets/images/logo.png" /></a>
+        </div>
+        <!-- menu -->
+        <div class="menu">
+          <nav>
+            <div class="menuMobile">
+              <div class="mm-line"></div>
+              <div class="mm-line"></div>
+              <div class="mm-line"></div>
+            </div>
+            <ul>
+              <li class="active"><a href="#">HOME</a></li>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">HOME</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- banner de apresentação -->
+    <section id="banner">
+      <div class="container column">
+        <div class="banner_headline">
+          <h1>Top notch experience</h1>
+          <h2>
+            Medicenter is a responsive template perfect for all screen sizes
+          </h2>
+        </div>
+        <!-- opções dentro do banner -->
+        <div class="banner_options">
+          <!-- casos de emergência -->
+          <div class="banner1">
+            <div class="banner_title">Emergency Case</div>
+            <div class="banner_desc">
+              If you need a doctor urgently outside of medicenter opening hours,
+              call emergency appointment number for emergency service.
+            </div>
+            <a href="#">Read More &rarr;</a>
+          </div>
+          <!-- calendário médico -->
+          <div class="banner2">
+            <div class="banner_title">Doctors Timetable</div>
+            <div class="banner_desc">
+              Here at medicenter we have individual doctor's lists. Click read
+              more below to see services and current timetable for our doctors
+            </div>
+            <a href="#">Read More &rarr;</a>
+          </div>
+          <!-- dias e horários -->
+          <div class="banner3">
+            <div class="banner_title">Opening Hours</div>
+            <div class="dia-semana">
+              Monday - Friday
+              <span>8.00 - 17.00</span>
+            </div>
+
+            <div class="dia-semana">
+              Saturday
+              <span>9.30 - 17.30</span>
+            </div>
+
+            <div class="dia-semana">
+              Sunday
+              <span>9.30 - 15.00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- conteúdo do site -->
+    <section id="geral">
+      <div class="container">
+        <!-- conteúdo principal -->
+        <section>
+          <!-- últimas notícias -->
+          <div class="widget">
+            <div class="widget_title">
+              <div class="widget_title_text">Latest News</div>
+              <div class="widget_title_bar"></div>
+            </div>
+            <div class="widget_body flex">
+              <!-- artigo 1 -->
+              <article>
+                <a href="#">
+                  <div class="news_data">
+                    <div class="news_posted_at">12 DEC 12</div>
+                    <div class="news_comments">2</div>
+                  </div>
+                  <div class="news_thumbnail">
+                    <img src="assets/images/image_03.jpg" />
+                  </div>
+                  <div class="news_title">Lorem ipsum dolor sit amat velum</div>
+                  <div class="news_resume">
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout. The point of using Lorem Ipsum is that it has a
+                    more-or-less normal distribution of letters, as opposed to
+                    using 'Content here, content here', making it look like
+                    readable English.
+                  </div>
+                </a>
+              </article>
+              <!-- artigo 2 -->
+              <article>
+                <a href="#">
+                  <div class="news_data">
+                    <div class="news_posted_at">12 DEC 12</div>
+                    <div class="news_comments">2</div>
+                  </div>
+                  <div class="news_thumbnail">
+                    <img src="assets/images/image_03.jpg" />
+                  </div>
+                  <div class="news_title">Lorem ipsum dolor sit amat velum</div>
+                  <div class="news_resume">
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout. The point of using Lorem Ipsum is that it has a
+                    more-or-less normal distribution of letters, as opposed to
+                    using 'Content here, content here', making it look like
+                    readable English.
+                  </div>
+                </a>
+              </article>
+              <!-- artigo 3 -->
+              <article>
+                <a href="#">
+                  <div class="news_data">
+                    <div class="news_posted_at">12 DEC 12</div>
+                    <div class="news_comments">2</div>
+                  </div>
+                  <div class="news_thumbnail">
+                    <img src="assets/images/image_03.jpg" />
+                  </div>
+                  <div class="news_title">Lorem ipsum dolor sit amat velum</div>
+                  <div class="news_resume">
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout. The point of using Lorem Ipsum is that it has a
+                    more-or-less normal distribution of letters, as opposed to
+                    using 'Content here, content here', making it look like
+                    readable English.
+                  </div>
+                </a>
+              </article>
+              <!-- artigo 4 -->
+              <article>
+                <a href="#">
+                  <div class="news_data">
+                    <div class="news_posted_at">12 DEC 12</div>
+                    <div class="news_comments">2</div>
+                  </div>
+                  <div class="news_thumbnail">
+                    <img src="assets/images/image_03.jpg" />
+                  </div>
+                  <div class="news_title">Lorem ipsum dolor sit amat velum</div>
+                  <div class="news_resume">
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout. The point of using Lorem Ipsum is that it has a
+                    more-or-less normal distribution of letters, as opposed to
+                    using 'Content here, content here', making it look like
+                    readable English.
+                  </div>
+                </a>
+              </article>
+            </div>
+          </div>
+        </section>
+        <!-- conteúdo secundário -->
+        <aside>
+          <!-- departamentos -->
+          <div class="widget">
+            <div class="widget_title">
+              <div class="widget_title_text">Departments</div>
+              <div class="widget_title_bar"></div>
+            </div>
+            <div class="widget_body">
+              <div class="box_body">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+              </div>
+            </div>
+          </div>
+          <!-- marcação de consulta -->
+          <div class="widget">
+            <div class="widget_title">
+              <div class="widget_title_text">Make an Appointment</div>
+              <div class="widget_title_bar"></div>
+            </div>
+            <div class="widget_body">
+              <div id="desc">
+                Just below are our contacts so you can make your appointment
+                today!
+              </div>
+              <!-- ícones de contato -->
+              <div class="phone">
+                <div class="box_d"></div>
+                <span class="txt_d">by phone: 1-234-567-890</span>
+              </div>
+              <div class="email">
+                <div class="box_d"></div>
+                <span class="txt_d">by e-mail: contact@medicenter.com</span>
+              </div>
+              <div class="form">
+                <div class="box_d"></div>
+                <span class="txt_d">
+                  or <a href="">fill in the form</a> on our contact page
+                </span>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+    <!-- rodapé -->
+    <footer>
+      <div class="container flexColumn">
+        <!-- links do rodapé -->
+        <div class="footer_menu">
+          <div class="fm_1">
+            <a href="#">
+              <div class="banner_title">Health Insurance</div>
+              <div class="banner_desc">
+                Here in medicenter we have individual
+                <span class="seta">→</span>
+              </div>
+            </a>
+          </div>
+          <div class="fm_2">
+            <a href="#">
+              <div class="banner_title">Medical Records</div>
+              <div class="banner_desc">
+                Here in medicenter we have individual
+                <span class="seta">→</span>
+              </div>
+            </a>
+          </div>
+          <div class="fm_3">
+            <a href="#">
+              <div class="banner_title">Online Bill Pay</div>
+              <div class="banner_desc">
+                Here in medicenter we have individual
+                <span class="seta">→</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- áreas específicas no rodapé -->
+        <div class="footer_area">
+          <!-- clínica médica -->
+          <div class="footer_area_item">
+            <div class="widget">
+              <div class="widget_title">
+                <div class="widget_title_text">Medicenter Clinic</div>
+                <div class="widget_title_bar"></div>
+              </div>
+              <div class="widget_body_clinic">
+                <div class="info">
+                  Mauris adipiscing mauris fringilla turpis interdum sed
+                  pulvinar nisi malesuada individual.
+                </div>
+                <!-- contatos -->
+                <div class="contact">
+                  <div class="contact_item">
+                    <p>Medicenter clinic</p>
+                    <p></p>
+                  </div>
+                  <div class="contact_item">
+                    <p>33 Farlane Street</p>
+                    <p>+123 655 655</p>
+                  </div>
+                  <div class="contact_item">
+                    <p>Keilor East</p>
+                    <p>+123 755 755</p>
+                  </div>
+                  <div class="contact_item">
+                    <p>VIC 3033, Austrália</p>
+                    <p><span>medicenter@mail.com</span></p>
+                  </div>
+                </div>
+                <!-- redes sociais -->
+                <div class="social_icons">
+                  <a id="facebook" href="#"> </a>
+                  <a id="twitter" href="#"> </a>
+                  <a id="googleplus" href="#"> </a>
+                  <a id="mail" href="#"> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- últimos posts -->
+          <div class="footer_area_item">
+            <div class="widget">
+              <div class="widget_title">
+                <div class="widget_title_text">Latest Posts</div>
+                <div class="widget_title_bar"></div>
+              </div>
+              <div class="widget_body_posts">
+                <!-- 1º post -->
+                <div class="latest_posts">
+                  <a href="#">
+                    <p class="seta">→</p>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Sunt aliquid amet atque quia, obcaecati odio quidem
+                      inventore, sed eum ad facere minus maxime at. Ipsam in
+                      quibusdam ipsum quos esse. <br />
+                      <span class="data_post">6 years ago</span>
+                    </p>
+                  </a>
+                </div>
+                <!-- 2º post -->
+                <div class="latest_posts">
+                  <a href="#">
+                    <p class="seta">→</p>
+                    <p>
+                      Mauris adipiscing mauris fringilla turpis interdum sed
+                      pulvinar nisi malesuada.
+                      <br />
+                      <span class="data_post">10 years ago</span>
+                    </p>
+                  </a>
+                </div>
+                <!-- 3º post -->
+                <div class="latest_posts">
+                  <a href="#">
+                    <p class="seta">→</p>
+                    <p>
+                      Molestias blanditiis nam amet, ab asperiores ut iure
+                      placeat quaerat! Temporibus nulla odit debitis deserunt
+                      quos fuga blanditiis! Eius, est laudantium. <br />
+                      <span class="data_post">6 years ago</span>
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- útimos tweets -->
+          <div class="footer_area_item">
+            <div class="widget">
+              <div class="widget_title">
+                <div class="widget_title_text">Latest Tweets</div>
+                <div class="widget_title_bar"></div>
+              </div>
+              <div class="widget_body_tweets">
+                <!-- 1º tweet -->
+                <div class="latest_tweets">
+                  <a href="#">
+                    <p class="seta">→</p>
+                    <p>
+                      We've released new version (v1.2) of our #CleanMate
+                      #Cleaning Company #Maid #Gardening #WordPress Theme.
+                      Please Che... <span class="tw_txt">t.co/##########</span>
+                      <br />
+                      <span class="data_post">About 11 hours ago</span>
+                    </p>
+                  </a>
+                </div>
+                <!-- 2º tweet -->
+                <div class="latest_tweets">
+                  <a href="#">
+                    <p class="seta">→</p>
+                    <p>
+                      We've released new version (v5.1) of our #Timetable
+                      #Responsive #Schedule #WP Plugin. Please check a
+                      #CodeCanyon <span class="tw_txt">t.co/##########</span
+                      ><br />
+                      <span class="data_post">4 days ago</span>
+                    </p>
+                  </a>
+                </div>
+                <!-- 3º tweet -->
+                <div class="latest_tweets">
+                  <a href="#">
+                    <p class="seta">→</p>
+                    <p>
+                      We've released new version (v5.0) of our #Timetable
+                      #Responsive #Schedule #WP Plugin with #booking and #pdf
+                      #export... <span class="tw_txt">t.co/##########</span>
+                      <br />
+                      <span class="data_post">2 years ago</span>
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- direitos autorais -->
+        <div class="footer_copy">
+          Página recriada com objetivo de estudo - ERIVELTON RODRIGUES
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
